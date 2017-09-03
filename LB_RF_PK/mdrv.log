@@ -1,0 +1,22 @@
+TE_setvar(33, 5)
+
+TE_setvar(4, 100)
+
+TE_setvar(5, 0)
+
+TE_setvar(26, 1000)
+
+TE_setvar(27, 60)
+
+Virtual User Script started at : 2017-07-30 00:04:40
+Starting action vuser_init.
+Connect succeeded on try 1: comm-type = telnet;host-name = 172.31.53.83;terminal-id = ;set-window-size = true;security-type = unsecured;terminal-type = vt420-8;terminal-model = vt420;login-command-file = ;terminal-setup-file = ;.
+Function TE_connect returned OK.
+TE_wait_text:  pattern = login: 
+Function TE_wait_text returned OK.
+TE_type:  typed text = yumrf<kReturn>
+Aborting RTE vuser.
+Resetting RTE virtual user after abnormal termination
+
+Abort was called from an action.
+Vuser 0 (thread 10420), ended OK."

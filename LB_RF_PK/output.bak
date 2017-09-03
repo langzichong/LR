@@ -1,0 +1,69 @@
+TE_setvar(33, 5)
+TE_setvar(4, 100)
+TE_setvar(5, 0)
+TE_setvar(26, 1000)
+TE_setvar(27, 60)
+Virtual User Script started at : 2017-07-29 22:43:55
+Starting action vuser_init.
+Connect succeeded on try 1: comm-type = telnet;host-name = 172.31.53.83;terminal-id = ;set-window-size = true;security-type = unsecured;terminal-type = vt420-8;terminal-model = vt420;login-command-file = ;terminal-setup-file = ;.
+Function TE_connect returned OK.
+TE_wait_text:  pattern = login: 
+Function TE_wait_text returned OK.
+TE_type:  typed text = yumrf<kReturn>
+vuser_init.c(35): lr_think_time: 2.60 seconds (recorded think time was 4.00 seconds).
+TE_wait_text:  pattern = Password: 
+Function TE_wait_text returned OK.
+TE_type:  typed text = Yum1234!<kReturn>
+vuser_init.c(38): lr_think_time: 2.60 seconds (recorded think time was 4.00 seconds).
+TE_wait_text:  pattern = [yumrf@SGH1VWMS08 ~]
+Function TE_wait_text returned OK.
+TE_type:  typed text = rf<kReturn>
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action1.
+Action1.c(3): lr_think_time: 4.17 seconds (recorded think time was 5.00 seconds).
+Action1.c(4): Notify: Parameter Substitution: parameter "rfuser" =  "rf1"
+TE_type:  typed text = rf1<kReturn>
+Action1.c(5): Notify: Parameter Substitution: parameter "password" =  "rf1"
+TE_type:  typed text = rf1<kReturn>
+Ending action Action1.
+Starting action Action2.
+Action2.c(4): lr_think_time: 3.13 seconds (recorded think time was 3.00 seconds).
+TE_wait_text:  pattern = 0
+Function TE_wait_text returned OK.
+TE_type:  typed text = 0
+Action2.c(7): lr_think_time: 6.48 seconds (recorded think time was 5.00 seconds).
+TE_type:  typed text = 1
+Action2.c(10): lr_think_time: 4.73 seconds (recorded think time was 5.00 seconds).
+TE_type:  typed text = S000115570
+TE_type:  typed text = <kReturn>
+TE_type:  typed text = <kReturn>
+Action2.c(18): lr_think_time: 6.87 seconds (recorded think time was 5.00 seconds).
+TE_type:  typed text = <kReturn>
+TE_wait_text:  pattern =  F1-
+Function TE_wait_text returned OK.
+Action2.c(22): Notify: Transaction "pick" started.
+TE_type:  typed text = GZ0041710
+Action2.c(25): lr_think_time: 4.88 seconds (recorded think time was 5.00 seconds).
+TE_type:  typed text = <kReturn>
+TE_type:  typed text = ]C19186110021929500216 1117071093
+Action2.c(30): lr_think_time: 6.58 seconds (recorded think time was 5.00 seconds).
+TE_type:  typed text = <kReturn>
+TE_wait_text:  pattern = F4-
+Function TE_wait_text returned OK.
+TE_type:  typed text = <kReturn>
+Action2.c(36): lr_think_time: 7.47 seconds (recorded think time was 5.00 seconds).
+TE_wait_text:  pattern = Enter
+Function TE_wait_text returned OK.
+Action2.c(38): Notify: Transaction "pick" ended with "Pass" status (Duration: 23.3812 Think Time: 22.9349 Wasted Time: 0.2000).
+Action2.c(41): lr_think_time: 5.41 seconds (recorded think time was 5.00 seconds).
+TE_type:  typed text = <kControl-c>
+Action2.c(44): lr_think_time: 1.42 seconds (recorded think time was 1.00 seconds).
+TE_type:  typed text = exit<kReturn>
+Ending action Action2.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

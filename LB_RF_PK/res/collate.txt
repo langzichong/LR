@@ -1,0 +1,5 @@
+[Diagnostics]
+Status=-1
+[Collate Recovery]
+Scenario=C:\HP\LoadRunner\scenario\Scenario4.lrs
+Completed=0

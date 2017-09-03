@@ -1,0 +1,11 @@
+
+[]
+comm-type = telnet
+host-name = 172.29.165.94
+terminal-id = 
+set-window-size = true
+security-type = unsecured
+terminal-type = vt420-8
+terminal-model = vt420
+login-command-file = 
+terminal-setup-file = 

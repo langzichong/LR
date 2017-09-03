@@ -1,0 +1,37 @@
+[Scenario]
+Product=HP LoadRunner Controller
+Version=11.0.0.0
+Path=C:\HP\LoadRunner\scenario\Scenario4.lrs
+Subject=Scenario4
+Result_file=E:\LB_RF_PK\res\res.lrr
+Description=
+ResultName=res
+Time_Zone=-28800
+Start_time=1491902645
+Daylight_Bias=0
+Stop_time=1491902864
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+[Running_mode]
+Start_reason=By command
+Stop_reason=By a user
+[Data Collection]
+FullData=1
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Default Schedule
+Mode=Group Scheduling
+Scenario Duration=Unknown duration
+Load Behavior=Defined per scenario group
+[Wan_Emulation]
+1=
+2=
+[Scripts]
+LB_RF_REC=E:\LB_RF_REC\LB_RF_REC.usr
+lb_rf_pk=E:\LB_RF_PK\LB_RF_PK.usr
+[Scripts_types]
+LB_RF_REC=RTE
+lb_rf_pk=RTE

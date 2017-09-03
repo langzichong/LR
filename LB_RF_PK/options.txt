@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IE:\bogie\pk\LB_RF_PK
+-IC:\HP\LoadRunner\include
+-ee:\bogie\pk\lb_rf_pk\\logfile.log
+e:\bogie\pk\lb_rf_pk\\combined_LB_RF_PK.c
+e:\bogie\pk\lb_rf_pk\\pre_cci.c

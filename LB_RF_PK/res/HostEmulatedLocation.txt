@@ -1,0 +1,5 @@
+[No WAN Emulation]
+HostsCount=3
+Host0=1
+Host1=localhost
+Host2=2

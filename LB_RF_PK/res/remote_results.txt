@@ -1,0 +1,2 @@
+[Hosts]
+localhost=E:\LB_RF_PK\res\localhost_1.eve
